@@ -1,0 +1,2 @@
+# safaris
+Explore without limits
