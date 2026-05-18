@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}KayGTech Solutions{% endblock %}</title>
+    <title>{% block title %}OptimAll Solutions{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
 
     <header>
-        <div class="logo"><a href="{% url 'home' %}" class="logo-link"><strong>OptmAll</strong> Solutions</a></div>
+        <div class="logo"><a href="{% url 'home' %}" class="logo-link"><strong>OptimAll</strong> Solutions</a></div>
         <nav>
             <a href="{% url 'home' %}" class="nav-link{% if request.resolver_match.url_name == 'home' %} active{% endif %}">Home</a>
             <a href="{% url 'contact' %}" class="nav-link{% if request.resolver_match.url_name == 'contact' %} active{% endif %}">Contact</a>
@@ -23,7 +23,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 OptmAll Solutions | Nairobi, Kenya</p>
+        <p>&copy; 2026 OptimAll Solutions | Nairobi, Kenya</p>
     </footer>
 
 </body>

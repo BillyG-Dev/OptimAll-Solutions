@@ -1,4 +1,4 @@
-# KayGTech / OptmAll Django Project
+# OptmAll Django Project
 
 A minimal Django site for the `pages` app with homepage and contact page templates.
 
