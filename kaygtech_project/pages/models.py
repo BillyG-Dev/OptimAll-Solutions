@@ -20,4 +20,4 @@ class DeploymentBrief(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.name} - {self.get_service_display()}"
+        return f"{self.name} - {self.get_service_display()}" # type: ignore
