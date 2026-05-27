@@ -14,7 +14,7 @@ def contact_view(request):
             form.save()
             messages.success(
                 request, 
-                "System Brief Securely Transmitted. Our engineering unit will contact you within 24 hours."
+                "Enquiry Brief Securely Transmitted. Our engineering unit will be in touch within 24 hours."
             )
             return redirect('contact')
         else:
